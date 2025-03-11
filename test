@@ -1,6 +1,31 @@
 {
-    "workbench.colorTheme": "Omni",
-    "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "JetBrains MonO",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "workbench.iconTheme": "symbols",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "editor.semanticHighlighting.enabled": false,
+    "explorer.compactFolders": false,
+    "editor.minimap.enabled": false,
+    "window.titleBarStyle": "native",
+    "breadcrumbs.enabled": false,
+    "apc.electron": {
+      "titleBarStyle": "hiddenInset"
+    },
+   "apc.stylesheet": {
+      ".title-label > h2": "display: none",
+      ".pane-body": "padding: 8px",
+      ".pane-header": "padding: 0 8px",
+    },
+    "apc.listRow": {
+      "height": 24
+    },
     "workbench.layoutControl.enabled": false,
-    "window.commandCenter": false
+    "chat.commandCenter.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "window.commandCenter": false,
+    "workbench.colorTheme": "Omni",
+    "files.autoSave": "afterDelay"
 }
